@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import MortarCalculatorApp from './components/mortar-calc-app.js';
+import App from './components/app.js';
 
-ReactDOM.render(<MortarCalculatorApp/>, document.getElementById('app'));
+ReactDOM.render(<App/>, document.getElementById('app'));

@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './header.js';
+import Header from './header';
 import MortarCalculator from './mortar-calc.js';
 
 export default class MortarCalculatorApp extends React.Component {
