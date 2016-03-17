@@ -8,7 +8,8 @@ export default class MortarCalculatorInputs extends React.Component {
         <div className="form-group form-group-lg">
           <label htmlFor="mortar-inputs-support-easting">Support coordinates: easting</label>
           <input id="mortar-inputs-support-easting"
-                 name="input-support-easting"
+                 name="support-easting"
+                 value={this.props.inputs.support.easting}
                  onChange={this.props.changeHandler}
                  type="number"
                  inputMode="numeric"
@@ -19,7 +20,8 @@ export default class MortarCalculatorInputs extends React.Component {
         <div className="form-group form-group-lg">
           <label htmlFor="mortar-inputs-support-northing">Support coordinates: northing</label>
           <input id="mortar-inputs-support-northing"
-                 name="input-support-northing"
+                 name="support-northing"
+                 value={this.props.inputs.support.northing}
                  onChange={this.props.changeHandler}
                  type="number"
                  inputMode="numeric"
@@ -31,7 +33,8 @@ export default class MortarCalculatorInputs extends React.Component {
           <label htmlFor="mortar-inputs-support-elevation">Support elevation</label>
           <div className="input-group">
             <input id="mortar-inputs-support-elevation"
-                   name="input-support-elevation"
+                   name="support-elevation"
+                   value={this.props.inputs.support.elevation}
                    onChange={this.props.changeHandler}
                    type="number"
                    inputMode="numeric"
@@ -44,7 +47,8 @@ export default class MortarCalculatorInputs extends React.Component {
         <div className="form-group form-group-lg">
           <label htmlFor="mortar-inputs-target-easting">Target coordinates: easting</label>
           <input id="mortar-inputs-target-easting"
-                 name="input-target-easting"
+                 name="target-easting"
+                 value={this.props.inputs.target.easting}
                  onChange={this.props.changeHandler}
                  type="number"
                  inputMode="numeric"
@@ -55,7 +59,8 @@ export default class MortarCalculatorInputs extends React.Component {
         <div className="form-group form-group-lg">
           <label htmlFor="mortar-inputs-target-northing">Target coordinates: northing</label>
           <input id="mortar-inputs-target-northing"
-                 name="input-target-northing"
+                 name="target-northing"
+                 value={this.props.inputs.target.northing}
                  onChange={this.props.changeHandler}
                  type="number"
                  inputMode="numeric"
@@ -67,7 +72,8 @@ export default class MortarCalculatorInputs extends React.Component {
           <label htmlFor="mortar-inputs-target-elevation">Target elevation</label>
           <div className="input-group">
             <input id="mortar-inputs-target-elevation"
-                   name="input-target-elevation"
+                   name="target-elevation"
+                   value={this.props.inputs.target.elevation}
                    onChange={this.props.changeHandler}
                    type="number"
                    inputMode="numeric"
